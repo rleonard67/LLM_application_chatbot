@@ -16,7 +16,6 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 # Store conversation history (limit length to avoid overflow)
 conversation_history = []
 
-
 # Routes
 @app.route('/', methods=['GET'])
 def home():
